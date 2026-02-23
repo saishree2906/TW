@@ -1,0 +1,33 @@
+1John Smith
+john.smith@example.com
+(555) 123-4567
+
+SUMMARY
+Senior Software Engineer with 8+ years of experience
+
+SKILLS
+- Python
+- Java
+- JavaScript
+- React
+- FastAPI
+- Docker
+- AWS
+- SQL
+- Machine Learning
+- Project Management
+- Leadership
+- Communication
+
+EXPERIENCE
+Software Engineer - TechCorp (2019-2024)
+6 Senior Software Engineer - DataFlow Inc (2016-2019)
+3 years Junior Developer - StartupXYZ (2015-2016)
+1 year
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of California
+
+Master of Science in Software Engineering
+Massachusetts Institute of Technology

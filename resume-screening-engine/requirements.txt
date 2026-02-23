@@ -1,0 +1,25 @@
+fastapi
+uvicorn
+
+# Resume parsing
+spacy==3.7.2
+pdfplumber==0.10.3
+docx2txt==0.8
+
+# NLP model support
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.0/en_core_web_md-3.7.0-py3-none-any.whl
+
+# Utilities
+python-multipart
+pydantic-settings>=2.0
+
+# Phase 3 – Matching & Ranking
+sentence-transformers==2.6.1
+torch>=2.1.0
+numpy>=1.24.0
+
+streamlit
+requests
+
+faiss-cpu==1.7.4  # For efficient similarity search
+python-dotenv==1.0.0 # To ensure environment variables load correctly

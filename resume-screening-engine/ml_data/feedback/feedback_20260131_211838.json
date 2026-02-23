@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-01-31T21:18:38.406739",
+  "job_description": "{\n\"resume_data\": {\n\"skills\": [\n\"agile\",\n\"api\",\n\"aws\",\n\"docker\",\n\"kubernetes\",\n\"python\",\n\"sql\"\n]\n},\n\"job_description\": \"We are looking for a Backend Engineer with strong Python skills, experience in AWS, Docker, and Kubernetes. Knowledge of REST APIs and SQL is required.\",\n\"role\": \"Backend Engineer\"\n}",
+  "ai_ranking": [
+    "VARDHAN S R\nChennai",
+    "B. Chandren\nChennai",
+    "B. Chandren\nChennai",
+    "B. Chandren"
+  ],
+  "user_ranking": [
+    "4"
+  ],
+  "selected_candidate": "B. Chandren",
+  "agreement": 0.0,
+  "notes": "good",
+  "scores": {
+    "VARDHAN S R\nChennai": 64.75,
+    "B. Chandren\nChennai": 20.5,
+    "B. Chandren": 12.5
+  }
+}
