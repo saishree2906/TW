@@ -50,11 +50,23 @@ def run_matching_pipeline(
     missing_skills = find_missing_skills(jd_skills, resume_skills)
 
     # 5. Explanation
-    explanation = generate_explanation(missing_skills, match_score)
+    # explanation = generate_explanation(missing_skills, match_score)
+
+    # return {
+    #     "match_score": round(match_score, 2),
+    #     "jd_required_skills": jd_required_skills,
+    #     "missing_keywords": missing_skills,
+    #     "explanation": explanation,
+    # }
+    explanation_results = generate_explanation(
+        resume=resume_data,
+        jd=jd_required_skills,
+        score=match_score
+    )
 
     return {
         "match_score": round(match_score, 2),
         "jd_required_skills": jd_required_skills,
         "missing_keywords": missing_skills,
-        "explanation": explanation,
+        **explanation_results  # Unpack strengths, gaps, and readiness
     }

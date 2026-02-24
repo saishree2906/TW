@@ -2,34 +2,23 @@ from typing import Dict, List
 
 # This registry is intentionally simple and configurable.
 
+# app/core/skill_registry.py
+
 SKILL_REGISTRY: Dict[str, List[str]] = {
     "backend_engineer": [
-        "python",
-        "java",
-        "sql",
-        "docker",
-        "kubernetes",
-        "aws",
-        "rest",
-        "microservices",
+        "python", "java", "sql", "docker", "kubernetes", "aws", "rest", "microservices", "fastapi"
+    ],
+    "frontend_engineer": [
+        "javascript", "typescript", "react", "angular", "vue", "html", "css", "next.js", "tailwind"
+    ],
+    "full_stack_engineer": [
+        "python", "javascript", "react", "node.js", "sql", "aws", "docker", "rest"
     ],
     "data_scientist": [
-        "python",
-        "machine learning",
-        "statistics",
-        "pandas",
-        "numpy",
-        "sql",
-        "r",
+        "python", "machine learning", "statistics", "pandas", "numpy", "sql", "r", "tensorflow"
     ],
     "devops_engineer": [
-        "aws",
-        "azure",
-        "docker",
-        "kubernetes",
-        "jenkins",
-        "terraform",
-        "linux",
+        "aws", "azure", "docker", "kubernetes", "jenkins", "terraform", "linux", "ansible"
     ],
 }
 
